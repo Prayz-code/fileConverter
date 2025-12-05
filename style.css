@@ -73,5 +73,10 @@ body{
 
 .card{
     border: none!important;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    transition: box-shadow 0.3s;
 }
 
+.card:hover {
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.4);
+}
